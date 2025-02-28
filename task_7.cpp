@@ -6,9 +6,22 @@ int main()
 
     std::cout << "Enter a: ";
     std::cin >> a;
+    while (!(std::cin >> a))
+    {
+        std::cout << "Invalid Input. Enter correct input: ";
+        std::cin.clear();
+        std::cin.ignore(1000, '\n');
+
+    }
 
     std::cout << "Enter b: ";
     std::cin >> b;
+    while (!(std::cin >> b))
+    {
+        std::cout << "Invalid Input! Enter correct input: ";
+        std::cin.clear();
+        std::cin.ignore(1000, '\n');
+    }
 
     if(a > b)
     {
