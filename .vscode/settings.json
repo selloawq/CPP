@@ -51,6 +51,8 @@
         "text_encoding": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "cstring": "cpp",
+        "map": "cpp"
     }
 }
