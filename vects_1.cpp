@@ -18,4 +18,21 @@ int main()
     {
         std::cout << nums[j] << " ";
     }
+
+    std::cout << std::endl;
+    int newSize;
+    std::cout << "Enter new size: ";
+    std::cin >> newSize;
+
+    
+    nums.resize(newSize);
+
+    std::fill(nums.begin(), nums.end(), 90);
+    for(int j = 0; j < newSize; j++)
+    {
+        std::cout << nums[j] << " ";
+    }
+
+
+
 }
